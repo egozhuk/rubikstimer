@@ -1,0 +1,16 @@
+{
+    "name": "Rubik's timer",
+    "short_name": "Rubik's timer",
+    "description": "Таймер для кубика рубика",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#333333",
+    "theme_color": "#333333",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

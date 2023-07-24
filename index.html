@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubik's timer</title>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#f44336">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <style>
+        .long-button {
+            width: 100%;
+            height: 90vh;
+        }
+
+        .small-button {
+            width: 200px;
+            height: 5vh;
+        }
+
+        .red-button {
+            background-color: #f44336;
+            width: 100%;
+            height: 90vh;
+        }
+
+        #startStopTimer {
+            font-size: 50px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            .search-container {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding-bottom: 1rem;
+            }
+
+            .search-box {
+                margin-bottom: 0;
+            }
+
+            .search-actions {
+                flex-direction: column;
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <button id="showStats" class="button small-button">Статистика</button>
+    <button id="startStopTimer" class="button long-button">Start/stop timer</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
