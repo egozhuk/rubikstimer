@@ -9,12 +9,6 @@ if ('serviceWorker' in navigator) {
         });
 }
 
-const wakeLock = await navigator.wakeLock.request('screen');
-
-wakeLock.addEventListener('release', () => {
-    console.log('Wake Lock был освобожден');
-});
-
 const startStopTimerButton = document.getElementById("startStopTimer");
 const showStatsButton = document.getElementById("showStats");
 let startTime = null;
